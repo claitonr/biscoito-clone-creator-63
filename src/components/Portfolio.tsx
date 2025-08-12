@@ -1,21 +1,22 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import SocialLink from "./SocialLink";
-
+import ThemeToggle from "./ThemeToggle";
 const Portfolio = () => {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="flex justify-between items-center p-6 md:p-8">
         <h1 className="text-lg font-semibold tracking-tight animate-fade-in">
-          SEU NOME
+          Claiton
         </h1>
-        <nav className="animate-fade-in animation-delay-100">
+        <nav className="flex items-center gap-2 animate-fade-in animation-delay-100">
           <a 
             href="/blog" 
             className="text-muted-foreground hover:text-foreground transition-colors duration-200 ease-elegant"
           >
             blog
           </a>
+          <ThemeToggle />
         </nav>
       </header>
 
@@ -24,7 +25,7 @@ const Portfolio = () => {
         <div className="text-center max-w-md mx-auto">
           {/* Main heading */}
           <h2 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight animate-slide-up">
-            seu nome
+            Claiton
           </h2>
 
           {/* Social links */}
@@ -51,7 +52,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="p-6 md:p-8 text-center animate-fade-in animation-delay-300">
         <p className="text-sm text-muted-foreground">
-          © 2024 Seu Nome • Licenciado sob{" "}
+          © 2024 Claiton • Licenciado sob{" "}
           <a 
             href="https://opensource.org/licenses/MIT" 
             target="_blank" 
