@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import SocialLink from "./SocialLink";
 import ThemeToggle from "./ThemeToggle";
+import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div className="min-h-screen flex flex-col">
@@ -10,12 +11,12 @@ const Portfolio = () => {
           Claiton
         </h1>
         <nav className="flex items-center gap-2 animate-fade-in animation-delay-100">
-          <a 
-            href="/blog" 
+          <Link 
+            to="/blog"
             className="text-muted-foreground hover:text-foreground transition-colors duration-200 ease-elegant"
           >
             blog
-          </a>
+          </Link>
           <ThemeToggle />
         </nav>
       </header>
