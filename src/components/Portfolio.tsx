@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="flex justify-between items-center p-6 md:p-8">
-        <h1 className="text-lg font-semibold tracking-tight animate-fade-in">
+        <h1 className="text-xl md:text-2xl font-semibold tracking-tight animate-fade-in">
           Claiton
         </h1>
         <nav className="flex items-center gap-2 animate-fade-in animation-delay-100">
