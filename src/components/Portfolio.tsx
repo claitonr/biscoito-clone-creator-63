@@ -1,7 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import SocialLink from "./SocialLink";
 import ThemeToggle from "./ThemeToggle";
-import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
