@@ -10,15 +10,15 @@ const Portfolio = () => {
         <h1 className="text-xl md:text-2xl font-semibold tracking-tight animate-fade-in">
           Claiton
         </h1>
-        <nav className="flex items-center gap-2 animate-fade-in animation-delay-100">
-          <Link 
-            to="/blog"
-            className="text-muted-foreground hover:text-foreground transition-colors duration-200 ease-elegant"
-          >
-            blog
-          </Link>
-          <ThemeToggle />
-        </nav>
+         <nav className="flex items-center gap-2 animate-fade-in animation-delay-100">
+           <a 
+             href="#about"
+             className="text-muted-foreground hover:text-foreground transition-colors duration-200 ease-elegant"
+           >
+             sobre
+           </a>
+           <ThemeToggle />
+         </nav>
       </header>
 
       {/* Main content */}
