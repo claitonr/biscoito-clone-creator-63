@@ -82,6 +82,18 @@ function AppContent() {
         </div>
       </main>
 
+      {/* About section */}
+      <section id="about" className="px-6 md:px-8 pb-12">
+        <div className="max-w-2xl mx-auto text-center">
+          <h3 className="text-2xl md:text-3xl font-bold mb-6 tracking-tight">
+            Sobre
+          </h3>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Sou entusiasta de tecnologia que gosta de resolver problemas e otimizar processos.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="p-6 md:p-8 text-center">
         <p className="text-sm text-muted-foreground">
